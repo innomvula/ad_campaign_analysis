@@ -5,11 +5,11 @@ This analysis evaluates the impact of an **Average Bidding Strategy** (Test Camp
 
 ## Problem
 The company is testing a **new bidding strategy (Average Bidding)** to see if it **performs better than the existing Maximum Bidding Strategy** in terms of:
-- **Click-Through Rate (CTR)**
-- **Conversion Rate (CR)**
-- **Cost Per Mille (CPM)**
-- **Cost Per Click (CPC)**
-- **Cost Per Acquisition (CPA)**
+- Click-Through Rate (CTR)
+- Conversion Rate (CR)
+- Cost Per Mille (CPM)
+- Cost Per Click (CPC)
+- Cost Per Acquisition (CPA)
 
 ## Objective
 - Compare the performance of the **Test Campaign** against the **Control Campaign**.
@@ -23,19 +23,19 @@ The company is testing a **new bidding strategy (Average Bidding)** to see if it
 4. **Analysis & Interpretation**: Evaluated whether the **Test Campaign** significantly outperforms the **Control Campaign**.
 
 ## Conclusions
-- **CTR (Click-Through Rate) is significantly higher** in the Test Campaign (**p = 0.000125**), indicating the new bidding strategy attracts more clicks.
-- **CPM (Cost Per Mille) is also significantly higher** (**p = 0.0000006**), suggesting that the new bidding strategy results in **higher costs per 1,000 impressions**.
-- **CR (Conversion Rate), CPC (Cost Per Click), and CPA (Cost Per Acquisition) show no significant differences**, meaning **the new strategy does not improve conversion efficiency**.
-- **Key Trade-off**: More clicks are generated, but at a **higher cost per impression without a clear impact on conversions**.
+- CTR (Click-Through Rate) is significantly higher in the Test Campaign (p = 0.000125), indicating the new bidding strategy attracts more clicks.
+- CPM (Cost Per Mille) is also significantly higher (p = 0.0000006), suggesting that the new bidding strategy results in higher costs per 1,000 impressions.
+- CR (Conversion Rate), CPC (Cost Per Click), and CPA (Cost Per Acquisition) show no significant differences, meaning the new strategy does not improve conversion efficiency.
+- Key Trade-off: More clicks are generated, but at a higher cost per impression without a clear impact on conversions.
 
 ## Skills Demonstrated
-- **Statistical Testing (Shapiro-Wilk, Mann-Whitney U Test)**
-- **Data Cleaning & Filtering**
-- **A/B Testing & Experiment Evaluation**
-- **Performance Metrics Interpretation**
-- **Cost-Benefit Analysis of Bidding Strategies**
+- Statistical Testing (Shapiro-Wilk, Mann-Whitney U Test)
+- Data Cleaning & Filtering
+- A/B Testing & Experiment Evaluation
+- Performance Metrics Interpretation
+- Cost-Benefit Analysis of Bidding Strategies
 
 ## Technology Used
-- **Python (pandas, scipy, numpy)**
-- **Statistical Hypothesis Testing**
-- **Data Visualization (optional if needed)**
+- Python (pandas, scipy, numpy)
+- Statistical Hypothesis Testing
+- Data Visualization (optional if needed)
